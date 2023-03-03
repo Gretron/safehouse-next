@@ -5,7 +5,7 @@ import "./global.css";
 import styles from "./layout.module.css";
 
 // Fonts
-import { PrimeformPro } from "@/fonts";
+import { PrimeformPro } from "fonts";
 
 // Components
 import Navbar from "./Navbar";
