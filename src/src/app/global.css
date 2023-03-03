@@ -1,0 +1,34 @@
+:root {
+  /* Colors */
+  --primary: #111111;
+
+  --secondary-lightest: #373737;
+  --secondary-lighter: #242424;
+  --secondary-light: #181818;
+  --secondary: #151515;
+
+  --neutral: #ffffff;
+  --neutral-dark: #646464;
+
+  --accent: #727cc6;
+  --accent-dark: #6974c9;
+  --accent-darker: #606ccc;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--neutral);
+  background-color: var(--primary);
+
+  display: flex;
+
+  height: 100vh;
+}

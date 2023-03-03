@@ -1,0 +1,12 @@
+.sidebar {
+  --padding: min(3rem, 3vw);
+
+  background-color: var(--secondary);
+
+  flex-basis: min(
+    calc(28vw - var(--padding) * 2),
+    min(calc(28rem - var(--padding) * 2))
+  );
+
+  padding: var(--padding);
+}
